@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 public class DiceRoller{
     static void printDie(int roll){
@@ -41,7 +41,7 @@ public class DiceRoller{
             case 6 : System.out.println(dice6);
                      break;
             default :
-                System.out.println("Invalid roll");
+                    System.out.println("Invalid roll");
         }
     }
     public static void main(String[] args) {
